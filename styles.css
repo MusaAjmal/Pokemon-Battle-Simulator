@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+body{
+  margin: 0;
+  padding:0;
+  background-color: black;
+  position: relative;
+}
+#start{
+    margin-left:45%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+}
+#mid-line{
+    width: 100%;
+    border:2px solid tomato;
+    
+}
+#top-container{
+    width: 100%;
+    height: 300px;
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom-left{
+    border: 1px solid tomato;
+    width: 400px;
+    height: 300px;
+   
+}
+#top-left{
+    border: 1px solid tomato;
+    width: 400px;
+    
+    height: 300px;
+    
+
+}
+
+#top-main{
+    width: 1000px;
+    height: 300px;
+    border:1px solid black;
+   position: relative;
+}
+#bottom-container{
+    width: 100%;
+    height: 300px;
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom-main{
+    width: 1000px;
+    height: 300px;
+    border:1px solid tomato;
+   position: relative;
+}
+#p2-health,#p1-health{
+    border: 1px solid tomato;
+    width: 205px;
+ border-radius: 5px;
+}
+#p1-healthbar,#p2-healthbar{
+    
+    width: 205px;
+    background-color: rgb(18, 207, 18);
+    color:white;
+    border-radius: 5px;
+    transition:2s width ease;
+}
+#winning-text{
+    position: absolute;
+    top:25%;
+    left:20%;
+    font-size: 5rem;
+}
+#p2-pokname,#p2-health,#p2-entity{
+
+    margin-left:65%;
+}
+#p1-pokname,#p1-health,#p1-entity{
+    margin-left: 15%;
+}
+#p2-textcontainer,#p1-textcontainer{
+  border: 1px solid tomato;
+  margin-top: 20px;
+  height: 100px;
+
+}
+#p2-pokemon,#p1-pokemon{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.para{
+    color:red;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.move1{
+    
+    
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 120px;
+    cursor: pointer;
+    color: black;
+}
+.move2,.move3,.move4{
+   
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-top:10px;
+    cursor: pointer;
+    color:black;
+}
+button[disabled]
+{
+ cursor:not-allowed;
+}
+#p1-hbar,#p2-hbar
+{
+    transition: width 2s ease;
+}
+
+

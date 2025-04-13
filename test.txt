@@ -1,0 +1,91 @@
+ Grass: {
+    strengths: ["Water", "Ground"],
+    weaknesses: ["Fire", "Bug", "Poison", "Flying"],
+    immunities: [],
+  },
+  Fire: {
+    strengths: ["Grass", "Steel", "Bug", "Ice"],
+    weaknesses: ["Water", "Ground", "Rock"],
+    immunities: ["Grass", "Steel", "Bug", "Ice", "Fairy"],
+  },
+  Water: {
+    strengths: ["Fire", "Rock", "Ground"],
+    weaknesses: ["Grass", "Electric"],
+    immunities: ["Water", "Fire", "Ice"],
+  },
+  Electric: {
+    strengths: ["Water", "Flying"],
+    weaknesses: ["Ground"],
+    immunities: ["Electric", "Steel"],
+  },
+  Ground: {
+    strengths: ["Fire", "Electric", "Rock", "Poison"],
+    weaknesses: ["Water", "Ice", "Grass"],
+    immunities: ["Electric"],
+  },
+  Psychic: {
+    strengths: ["Fighting", "Poison"],
+    weaknesses: ["Dark", "Ghost", "Bug"],
+    immunities: ["Psychic", "Fighting"],
+  },
+  Ghost: {
+    strengths: ["Psychic", "Ghost"],
+    weaknesses: ["Ghost", "Dark"],
+    immunities: ["Normal", "Fighting", "Poison", "Bug"],
+  },
+  Dark: {
+    strengths: ["Ghost", "Psychic"],
+    weaknesses: ["Bug", "Fighting", "Fairy"],
+    immunities: ["Dark", "Ghost"],
+  },
+  Dragon: {
+    strengths: ["Dragon"],
+    weaknesses: ["Fire", "Water", "Grass", "Electric"],
+    immunities: [],
+  },
+  Flying: {
+    strengths: ["Fighting", "Grass", "Bug"],
+    weaknesses: ["Electric", "Rock", "Ice"],
+    immunities: ["Fighting", "Grass", "Bug"],
+  },
+  Fighting: {
+    strengths: ["Steel", "Rock", "Bug", "Ice"],
+    weaknesses: ["Flying", "Psychic", "Fairy"],
+    immunities: ["Bug", "Dark", "Rock", "Fairy"],
+  },
+  Bug: {
+    strengths: ["Grass", "Dark"],
+    weaknesses: ["Flying", "Fire", "Rock"],
+    immunities: ["Grass", "Dark"],
+  },
+  Ice: {
+    strengths: ["Dragon", "Ground", "Grass", "Flying"],
+    weaknesses: ["Fire", "Rock", "Steel", "Fighting"],
+    immunities: ["Ice"],
+  },
+  Poison: {
+    strengths: ["Grass", "Fairy"],
+    weaknesses: ["Ground", "Psychic"],
+    immunities: ["Poison", "Grass", "Fairy", "Bug", "Fighting"],
+  },
+  Fairy: {
+    strengths: ["Fighting", "Dragon"],
+    weaknesses: ["Poison", "Steel"],
+    immunities: ["Dragon"],
+  },
+  Steel: {
+    strengths: ["Ice", "Rock", "Fairy"],
+    weaknesses: ["Fire", "Ground", "Fighting"],
+    immunities: ["Poison", "Rock", "Grass", "Dragon", "Psychic", "Ice", "Fairy", "Bug", "Normal"],
+  },
+  Rock: {
+    strengths: ["Fire", "Flying", "Ice", "Bug"],
+    weaknesses: ["Fighting", "Ground", "Steel", "Water", "Grass"],
+    immunities: ["Normal", "Fire", "Flying", "Poison"],
+  },
+  Normal: {
+    strengths: [],
+    weaknesses: ["Fighting"],
+    immunities: ["Ghost"],
+  },
+};

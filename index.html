@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="top-container">
+        <div id="top-main">
+            <p id="p2-pokname" class="pokemon-name">Name</p>
+         <div id ="p2-health"><div id="p2-healthbar" class="health-bar">Health</div></div>
+            <div id="p2-entity">
+          <img id="p2-pokemon" src=""  alt="POKEMON">
+            </div>
+            <div id="p2-textcontainer">dont look</div>
+        </div>
+    <div id="top-left">
+        <p class="para">Player 2 Moves</p>
+        <button id="player2-move1" class="move1" onclick="player2dealdamage(this)" disabled>move1</button>
+        <button  id="player2-move2" class="move2" onclick="player2dealdamage(this)" disabled>move2</button>
+        <button   id="player2-move3" class="move3"  onclick="player2dealdamage(this)" disabled>move3</button>
+        <button  id="player2-move4" class="move4" onclick="player2dealdamage(this)" disabled>move4</button></div>
+    </div>
+    
+
+    <div id="mid-line">
+        <button id="start" onclick="startGame()">Start Game</button>
+    </div>
+    <div id="bottom-container">
+    <div id="bottom-main">
+     <p id="p1-pokname" class="pokemon-name">Name</p>
+     <div id="p1-health"><div id="p1-healthbar" class="health-bar">Health</div></div>
+    <div id="p1-entity">
+        <img id="p1-pokemon" src="" alt="POKEMON">
+    </div>
+  <div id="p1-textcontainer"><span id="p1-text" style="display: block;">dont look behind</span>
+    
+  </div>
+</div>
+    <div id="bottom-left">
+        <p class="para">Player1 Moves</p>
+        <button id="player1-move1" class="move1" onclick="player1dealdamage(this)" disabled>move1</button>
+        <button  id="player1-move2" class="move2" onclick="player1dealdamage(this)" disabled>move2</button>
+        <button   id="player1-move3" class="move3" onclick="player1dealdamage(this)" disabled>move3</button>
+        <button  id="player1-move4" class="move4" onclick="player1dealdamage(this)" disabled>move4</button>
+    </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
